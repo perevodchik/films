@@ -1,0 +1,16 @@
+include: package:very_good_analysis/analysis_options.5.0.0.yaml
+
+linter:
+
+  rules:
+    public_member_api_docs: false
+    one_member_abstracts: false
+    no_default_cases: false
+    avoid_dynamic_calls: false
+    avoid_setters_without_getters: false
+    library_private_types_in_public_api: false
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/i18n.dart"
